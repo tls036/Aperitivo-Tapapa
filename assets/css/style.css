@@ -464,6 +464,20 @@ img {
     margin-bottom: 60px;
 }
 
+.menu-grid.single-item {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-grid.single-item .menu-card {
+    max-width: 650px;
+    width: 100%;
+}
+
+.menu-grid.single-item .menu-img-container {
+    height: 400px;
+}
+
 .menu-card {
     background-color: var(--clr-cream-light);
     border-radius: var(--br-md);
