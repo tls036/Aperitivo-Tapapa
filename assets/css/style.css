@@ -676,7 +676,7 @@ img {
    9. CTA SECTION
    ========================================================================== */
 .cta {
-    background: linear-gradient(rgba(45,35,30,0.8), rgba(45,35,30,0.9)), url('../images/hero.png');
+    background: linear-gradient(rgba(45,35,30,0.8), rgba(45,35,30,0.9)), url('../images/Product.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
