@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aperitivo Tapapa | Modern & Minimalist Mexican</title>
+    <meta name="description" content="Aperitivo Tapapa brings a taste of Mexico, simplified. Experience clean, fresh, and modern flavors crafted with authenticity.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for guaranteed icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="loading">
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loader-content">
+            <h2 class="loader-brand">Aperitivo <span>Tapapa</span></h2>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND MEXICAN PATTERN -->
+    <div class="bg-pattern"></div>
+
+    <!-- 2. HEADER / NAVBAR -->
+    <header class="header" id="navbar">
+        <div class="container header-container">
+            <a href="#" class="logo">Aperitivo <span>Tapapa</span></a>
+            
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 3. HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-parallax" id="hero-img">
+            <!-- Using local high res imagery to completely avoid external asset blockages -->
+            <img src="assets/images/hero.png" alt="Aesthetic Mexican Food" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-up">A Taste of Mexico,<br>Simplified.</h1>
+                <p class="hero-subtitle fade-up delay-1">Clean. Fresh. Modern.</p>
+                <div class="hero-buttons fade-up delay-2">
+                    <a href="#menu" class="btn btn-outline">Explore Menu</a>
+                    <a href="#contact" class="btn btn-solid">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. ABOUT SECTION -->
+    <section class="about section-padding" id="about">
+        <div class="container about-container">
+            <div class="about-image-wrapper reveal-left">
+                <img src="assets/images/salad.jpg" alt="Fresh ingredients" class="about-image">
+                <div class="image-accent"></div>
+            </div>
+            <div class="about-text reveal-right">
+                <h4 class="section-subtitle">Our Story</h4>
+                <h2 class="section-title">Rooted in Tradition, <br>Refined for Today.</h2>
+                <p class="about-description">
+                    At Aperitivo Tapapa, we believe that the best flavors come from simplicity. We take the vibrant, rich soul of Mexican street food and elevate it into a clean, modern dining experience.
+                </p>
+                <p class="about-description">
+                    Every dish is carefully crafted with the freshest ingredients, bringing you authentic taste without the clutter. Just pure, uncompromised flavor.
+                </p>
+                <a href="#about" class="link-btn">Read full story <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. MENU / PRODUCT SECTION -->
+    <section class="menu section-padding bg-light" id="menu">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h4 class="section-subtitle">Curated Selection</h4>
+                <h2 class="section-title">Our Menu</h2>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-card reveal-up delay-1 tilt-card">
+                    <div class="menu-img-container">
+                        <img src="assets/images/tacos.jpg" alt="Modern Tacos" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-name">Baja Tostada</h3>
+                        <p class="menu-desc">Crispy corn tortilla layered with fresh citrus ceviche, avocado crema, and micro cilantro.</p>
+                        <span class="menu-price">$12</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-card reveal-up delay-2 tilt-card">
+                    <div class="menu-img-container">
+                        <img src="assets/images/guac.jpg" alt="Fresh Guacamole" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-name">Artisan Guacamole</h3>
+                        <p class="menu-desc">Hand-mashed Hass avocados, charred jalapeño, lime zest, served with house-baked totopos.</p>
+                        <span class="menu-price">$9</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-card reveal-up delay-3 tilt-card">
+                    <div class="menu-img-container">
+                        <img src="assets/images/churros.jpg" alt="Churros" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-name">Cinnamon Churros</h3>
+                        <p class="menu-desc">Delicate golden pastries dusted in spiced sugar, accompanied by an Oaxaca dark chocolate dip.</p>
+                        <span class="menu-price">$7</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-action text-center reveal-up delay-4">
+                <a href="#menu" class="btn btn-outline" style="position: relative; z-index: 2;">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. HIGHLIGHT SECTION -->
+    <section class="highlights section-padding">
+        <div class="container highlight-container">
+            <div class="highlight-item reveal-up delay-1">
+                <div class="highlight-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3>Fresh Ingredients</h3>
+                <p>Sourced locally and prepared daily to ensure the highest quality in every bite.</p>
+            </div>
+            <div class="highlight-item reveal-up delay-2">
+                <div class="highlight-icon">
+                    <i class="fa-solid fa-fire"></i>
+                </div>
+                <h3>Authentic Flavor</h3>
+                <p>Spices and recipes passed down through generations, honoring true Mexican heritage.</p>
+            </div>
+            <div class="highlight-item reveal-up delay-3">
+                <div class="highlight-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+                <h3>Minimal Presentation</h3>
+                <p>A feast for the eyes and the palate. Clean, elegant plating that lets the food speak.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. GALLERY SECTION -->
+    <section class="gallery section-padding bg-light" id="gallery">
+        <div class="container">
+            <div class="section-header text-center reveal-up">
+                <h4 class="section-subtitle">Visual Experience</h4>
+                <h2 class="section-title">Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-up delay-1">
+                    <img src="assets/images/tacos.jpg" alt="Gallery Image 1">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal-up delay-2">
+                    <img src="assets/images/salad.jpg" alt="Gallery Image 2">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal-up delay-3">
+                    <img src="assets/images/guac.jpg" alt="Gallery Image 3">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item reveal-up delay-4">
+                    <img src="assets/images/churros.jpg" alt="Gallery Image 4">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. TESTIMONIAL SECTION -->
+    <section class="testimonials section-padding">
+        <div class="container text-center">
+            <h2 class="section-title reveal-up">What They Say</h2>
+            <div class="testimonial-slider reveal-up delay-1">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="testimonial-text">"Absolutely stunning. The flavors are bright and authentic, yet the presentation feels so modern and refined. A must-visit."</p>
+                    <h5 class="testimonial-author">— Elena R.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. CTA SECTION -->
+    <section class="cta section-padding" id="contact">
+        <div class="container text-center reveal-up">
+            <h2 class="cta-title">Ready to try Aperitivo Tapapa?</h2>
+            <p class="cta-subtitle">Join us for a culinary journey that honors tradition and embraces the present.</p>
+            <a href="#order" class="btn btn-solid btn-lg">Order Now</a>
+        </div>
+    </section>
+
+    <!-- 10. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">Aperitivo <span>Tapapa</span></a>
+                <p class="footer-tagline">A Taste of Mexico, Simplified.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Hello@tapapa.com</p>
+                <p>+62 812 3456 7890</p>
+                <p>Jakarta, Indonesia</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aperitivo Tapapa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
